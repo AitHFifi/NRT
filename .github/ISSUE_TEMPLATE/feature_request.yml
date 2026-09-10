@@ -1,0 +1,38 @@
+﻿name: Feature Request
+description: Suggest an idea or enhancement for NRT Gabon
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an enhancement to the NRT Gabon aviation platform!
+  - type: input
+    id: feature-title
+    attributes:
+      label: Feature Title
+      description: A concise title for this feature.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What challenge or user flow does this feature address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed implementation or design.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: Affects UI/UX or animations (GSAP/Framer Motion)
+        - label: Affects domain data (destinations, fleet, flights)
+        - label: Affects booking flow or route map

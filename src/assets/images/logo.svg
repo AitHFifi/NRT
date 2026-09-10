@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 5 420 156" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nrtWingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#E5E7EB" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="trailGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="trailGradRev" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Aerodynamic Flight Wing Emblem -->
+  <g transform="translate(0, 0)">
+    <!-- Left Supersonic Contrail -->
+    <path d="M 140,43 C 190,41 245,34 285,22 C 275,27 235,37 140,43 Z" fill="url(#trailGrad)" />
+    <!-- Right Supersonic Contrail -->
+    <path d="M 460,43 C 410,41 355,34 315,22 C 325,27 365,37 460,43 Z" fill="url(#trailGradRev)" />
+    
+    <!-- Central Jet Falcon Silhouette -->
+    <path d="M 300,8 L 308,28 L 334,36 L 306,39 L 300,50 L 294,39 L 266,36 L 292,28 Z" fill="url(#nrtWingGrad)" />
+    <!-- Accent Core -->
+    <circle cx="300" cy="30" r="3" fill="#FFFFFF" />
+  </g>
+
+  <!-- NRT Bold Monogram Typography -->
+  <g fill="#FFFFFF">
+    <!-- N -->
+    <path d="M 180,114 L 180,58 L 195,58 L 227,100 L 227,58 L 241,58 L 241,114 L 226,114 L 194,72 L 194,114 Z" />
+    
+    <!-- R -->
+    <path fill-rule="evenodd" d="M 270,114 L 270,58 L 314,58 C 327,58 334,65 334,75 C 334,83.5 328,89 317,90.5 L 334,114 L 317,114 L 302,92 L 285,92 L 285,114 L 270,114 Z M 285,69.5 L 285,81.5 L 311,81.5 C 316.5,81.5 319.5,79 319.5,75.5 C 319.5,72 316.5,69.5 311,69.5 L 285,69.5 Z" />
+    
+    <!-- T -->
+    <path d="M 358,58 L 422,58 L 422,70 L 397,70 L 397,114 L 383,114 L 383,70 L 358,70 Z" />
+  </g>
+
+  <!-- Elegant Geometric Divider -->
+  <g>
+    <line x1="120" y1="128" x2="270" y2="128" stroke="rgba(255,255,255,0.45)" stroke-width="0.75" />
+    <polygon points="300,125 303,128 300,131 297,128" fill="#FFFFFF" opacity="0.9" />
+    <line x1="330" y1="128" x2="480" y2="128" stroke="rgba(255,255,255,0.45)" stroke-width="0.75" />
+  </g>
+
+  <!-- Subtitle: NATIONALE REGIONALE DU TRANSPORT -->
+  <text 
+    x="300" 
+    y="148" 
+    text-anchor="middle" 
+    font-family="'Geist', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-size="10" 
+    font-weight="700" 
+    letter-spacing="3" 
+    fill="#FFFFFF">NATIONALE REGIONALE DU TRANSPORT</text>
+</svg>

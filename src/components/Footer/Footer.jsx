@@ -98,15 +98,29 @@ const Footer = () => {
         </div>
 
         {/* Bottom copyright & certification bar */}
-        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-white/50">
-          <div>
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-white/50">
+          <div className="max-w-md text-center md:text-left">
             © {new Date().getFullYear()} NRT (Nationale Régionale de Transport). {t("footer.rights")}
           </div>
-          <div className="flex items-center gap-1">
-            <span>Fièrement au service des 9 provinces du Gabon</span>
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#009b4d] ml-1" />
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#fcd116]" />
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#3a75c4]" />
+          <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 text-center md:text-right">
+            <div className="flex items-center gap-1">
+              <span>Fièrement au service des 9 provinces du Gabon</span>
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#009b4d] ml-1" />
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#fcd116]" />
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#3a75c4]" />
+            </div>
+            <span className="hidden sm:inline text-white/20">|</span>
+            <div className="text-white/60">
+              {t("footer.concuPar")}{" "}
+              <a
+                href="https://www.allogho.me/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#D4AF37] hover:text-[#f3cc56] font-semibold transition-colors underline underline-offset-4 decoration-[#D4AF37]/50 hover:decoration-[#f3cc56]"
+              >
+                ALLOGHO Frederic
+              </a>
+            </div>
           </div>
         </div>
       </div>

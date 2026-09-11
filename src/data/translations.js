@@ -159,6 +159,7 @@ export const translations = {
       agencyLBV: "Libreville : Aéroport Int'l Léon Mba & Immeuble NRT, Blvd Triomphal",
       agencyPOG: "Port-Gentil : Aérogare Principale & Centre-ville",
       rights: "Tous droits réservés. Agréé ANAC Gabon (Agence Nationale de l'Aviation Civile).",
+      concuPar: "Conçu et développé par",
     }
   },
 
@@ -322,6 +323,7 @@ export const translations = {
       agencyLBV: "Libreville: Léon Mba Int'l Airport & NRT Tower, Triomphal Blvd",
       agencyPOG: "Port-Gentil: Main Airport Terminal & Downtown Office",
       rights: "All rights reserved. Certified by ANAC Gabon (National Civil Aviation Agency).",
+      concuPar: "Designed & developed by",
     }
   }
 };
